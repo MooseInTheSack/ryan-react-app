@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ryan-react-app/static/css/main.41aa44ff.chunk.css",
+    "main.js": "/ryan-react-app/static/js/main.0e51677e.chunk.js",
+    "main.js.map": "/ryan-react-app/static/js/main.0e51677e.chunk.js.map",
+    "runtime-main.js": "/ryan-react-app/static/js/runtime-main.4a3b657a.js",
+    "runtime-main.js.map": "/ryan-react-app/static/js/runtime-main.4a3b657a.js.map",
+    "static/css/2.1cc9201e.chunk.css": "/ryan-react-app/static/css/2.1cc9201e.chunk.css",
+    "static/js/2.7304ef3a.chunk.js": "/ryan-react-app/static/js/2.7304ef3a.chunk.js",
+    "static/js/2.7304ef3a.chunk.js.map": "/ryan-react-app/static/js/2.7304ef3a.chunk.js.map",
+    "index.html": "/ryan-react-app/index.html",
+    "precache-manifest.249192ba5fc983c36ff619575ea9e7a2.js": "/ryan-react-app/precache-manifest.249192ba5fc983c36ff619575ea9e7a2.js",
+    "service-worker.js": "/ryan-react-app/service-worker.js",
+    "static/css/2.1cc9201e.chunk.css.map": "/ryan-react-app/static/css/2.1cc9201e.chunk.css.map",
+    "static/css/main.41aa44ff.chunk.css.map": "/ryan-react-app/static/css/main.41aa44ff.chunk.css.map",
+    "static/js/2.7304ef3a.chunk.js.LICENSE": "/ryan-react-app/static/js/2.7304ef3a.chunk.js.LICENSE",
+    "static/media/Avengers_poster.jpg": "/ryan-react-app/static/media/Avengers_poster.748abc16.jpg",
+    "static/media/Ben_4.jpg": "/ryan-react-app/static/media/Ben_4.7f4a8e69.jpg",
+    "static/media/Buddy_the_ant.jpg": "/ryan-react-app/static/media/Buddy_the_ant.d5206331.jpg",
+    "static/media/ben_3.jpg": "/ryan-react-app/static/media/ben_3.6d0094b2.jpg",
+    "static/media/blackmane.jpg": "/ryan-react-app/static/media/blackmane.becfcb52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a3b657a.js",
+    "static/css/2.1cc9201e.chunk.css",
+    "static/js/2.7304ef3a.chunk.js",
+    "static/css/main.41aa44ff.chunk.css",
+    "static/js/main.0e51677e.chunk.js"
+  ]
+}
