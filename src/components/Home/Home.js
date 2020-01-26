@@ -4,8 +4,7 @@ function Home() {
   return (
     <div className="Home">
         <h2>My name is Ryan Kirkpatrick</h2>
-        <p>Welcome to my website. I'm an aspiring artist with a passion for comic books, fan art and cartoons.</p>
-        <p>I've been interested in drawing since I learned to hold a pencil.</p>
+        <p>I am an aspiring young artist who aims to share his creativity with the world . I specialize in illustrations, figure drawing, inking, and digital. I also have experience in oil painting, 3D modeling and graphic design.</p>
       
     </div>
   );
