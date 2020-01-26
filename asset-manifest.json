@@ -1,30 +1,44 @@
 {
   "files": {
     "main.css": "/static/css/main.41aa44ff.chunk.css",
-    "main.js": "/static/js/main.141f653d.chunk.js",
-    "main.js.map": "/static/js/main.141f653d.chunk.js.map",
+    "main.js": "/static/js/main.0ecbfdeb.chunk.js",
+    "main.js.map": "/static/js/main.0ecbfdeb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e36d0af0.js",
     "runtime-main.js.map": "/static/js/runtime-main.e36d0af0.js.map",
     "static/css/2.1cc9201e.chunk.css": "/static/css/2.1cc9201e.chunk.css",
-    "static/js/2.7304ef3a.chunk.js": "/static/js/2.7304ef3a.chunk.js",
-    "static/js/2.7304ef3a.chunk.js.map": "/static/js/2.7304ef3a.chunk.js.map",
+    "static/js/2.34ded0df.chunk.js": "/static/js/2.34ded0df.chunk.js",
+    "static/js/2.34ded0df.chunk.js.map": "/static/js/2.34ded0df.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.11d6e726b4e1f84c5aed5add26d701eb.js": "/precache-manifest.11d6e726b4e1f84c5aed5add26d701eb.js",
+    "precache-manifest.4a58449b871b86076103455cd3dd0524.js": "/precache-manifest.4a58449b871b86076103455cd3dd0524.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1cc9201e.chunk.css.map": "/static/css/2.1cc9201e.chunk.css.map",
     "static/css/main.41aa44ff.chunk.css.map": "/static/css/main.41aa44ff.chunk.css.map",
-    "static/js/2.7304ef3a.chunk.js.LICENSE": "/static/js/2.7304ef3a.chunk.js.LICENSE",
+    "static/js/2.34ded0df.chunk.js.LICENSE": "/static/js/2.34ded0df.chunk.js.LICENSE",
     "static/media/Avengers_poster.jpg": "/static/media/Avengers_poster.748abc16.jpg",
     "static/media/Ben_4.jpg": "/static/media/Ben_4.7f4a8e69.jpg",
     "static/media/Buddy_the_ant.jpg": "/static/media/Buddy_the_ant.d5206331.jpg",
+    "static/media/Dr_Ferald.jpg": "/static/media/Dr_Ferald.969bfa3a.jpg",
+    "static/media/Ho_ho_whore.jpg": "/static/media/Ho_ho_whore.bf85b489.jpg",
+    "static/media/Rumple_and_Horace.jpg": "/static/media/Rumple_and_Horace.7440fd3c.jpg",
+    "static/media/Way_out_West_image.jpg": "/static/media/Way_out_West_image.cdfed17e.jpg",
     "static/media/ben_3.jpg": "/static/media/ben_3.6d0094b2.jpg",
-    "static/media/blackmane.jpg": "/static/media/blackmane.becfcb52.jpg"
+    "static/media/blackmane.jpg": "/static/media/blackmane.becfcb52.jpg",
+    "static/media/fisherman.jpg": "/static/media/fisherman.18daaa4f.jpg",
+    "static/media/iron_man_vs_thanos.jpg": "/static/media/iron_man_vs_thanos.18a85d3e.jpg",
+    "static/media/new_buddy.jpg": "/static/media/new_buddy.12825b95.jpg",
+    "static/media/rodrigo_2099.jpg": "/static/media/rodrigo_2099.6b73b329.jpg",
+    "static/media/scarecrow_boy.jpg": "/static/media/scarecrow_boy.590c73eb.jpg",
+    "static/media/self_p.jpg": "/static/media/self_p.cb2f2b00.jpg",
+    "static/media/self_portrait_copy.jpg": "/static/media/self_portrait_copy.969ee17e.jpg",
+    "static/media/sourcerer.jpg": "/static/media/sourcerer.1f120fab.jpg",
+    "static/media/spiderverse.jpg": "/static/media/spiderverse.6cc6720c.jpg",
+    "static/media/treasure_hunters.psd": "/static/media/treasure_hunters.f665a5ae.psd"
   },
   "entrypoints": [
     "static/js/runtime-main.e36d0af0.js",
     "static/css/2.1cc9201e.chunk.css",
-    "static/js/2.7304ef3a.chunk.js",
+    "static/js/2.34ded0df.chunk.js",
     "static/css/main.41aa44ff.chunk.css",
-    "static/js/main.141f653d.chunk.js"
+    "static/js/main.0ecbfdeb.chunk.js"
   ]
 }
