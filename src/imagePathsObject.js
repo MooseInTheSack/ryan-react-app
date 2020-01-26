@@ -17,7 +17,19 @@ import sourcerer from './components/common/images/sourcerer.jpg'
 import spiderverse from './components/common/images/spiderverse.jpg'
 import treasure_hunters from './components/common/images/treasure_hunters.psd'
 import Way_out_West_image from './components/common/images/Way_out_West_image.jpg'
-
+import i001 from './components/common/images/001.jpg'
+import i002 from './components/common/images/002.jpg'
+import i003 from './components/common/images/003.jpg'
+import i004 from './components/common/images/004.jpg'
+import i005 from './components/common/images/005.jpg'
+import i006 from './components/common/images/006.jpg'
+import i007 from './components/common/images/007.jpg'
+import i008 from './components/common/images/008.png'
+import i009 from './components/common/images/009.jpg'
+import i010 from './components/common/images/010.jpg'
+import i011 from './components/common/images/011.jpg'
+import i012 from './components/common/images/012.jpg'
+import i013 from './components/common/images/013.jpg'
 
 export const imagesObjects = [
         { 
@@ -152,6 +164,97 @@ export const imagesObjects = [
             original: Way_out_West_image,
             thumbnail: Way_out_West_image,
             title: 'Way_out_West_image',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i001,
+            thumbnail: i001,
+            title: 'i001',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i002,
+            thumbnail: i002,
+            title: 'i002',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i003,
+            thumbnail: i003,
+            title: 'i003',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i004,
+            thumbnail: i004,
+            title: 'i004',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i005,
+            thumbnail: i005,
+            title: 'i005',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i006,
+            thumbnail: i006,
+            title: 'i006',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i007,
+            thumbnail: i007,
+            title: 'i007',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i008,
+            thumbnail: i008,
+            title: 'i008',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i009,
+            thumbnail: i009,
+            title: 'i009',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i010,
+            thumbnail: i010,
+            title: 'i010',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i011,
+            thumbnail: i011,
+            title: 'i011',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i012,
+            thumbnail: i012,
+            title: 'i012',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i013,
+            thumbnail: i013,
+            title: 'i013',
             rows: 3,
             cols: 1,
         },
