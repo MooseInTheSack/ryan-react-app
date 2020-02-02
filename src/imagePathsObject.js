@@ -15,7 +15,7 @@ import self_p from './components/common/images/self_p.jpg'
 import self_portrait_copy from './components/common/images/self_portrait_copy.jpg'
 import sourcerer from './components/common/images/sourcerer.jpg'
 import spiderverse from './components/common/images/spiderverse.jpg'
-import treasure_hunters from './components/common/images/treasure_hunters.psd'
+import treasure_hunters from './components/common/images/treasure_hunters.png'
 import Way_out_West_image from './components/common/images/Way_out_West_image.jpg'
 import i001 from './components/common/images/001.jpg'
 import i002 from './components/common/images/002.jpg'
@@ -180,6 +180,13 @@ export const imagesObjects = [
             title: 'scorpion',
             rows: 4,
             cols: 2,
+        },
+        { 
+            original: treasure_hunters,
+            thumbnail: treasure_hunters,
+            title: 'treasure_hunters',
+            rows: 3,
+            cols: 1,
         },
         { 
             original: i002,
