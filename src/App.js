@@ -22,17 +22,17 @@ function App() {
           path="/"
           render={({ location }) => (
             <Fragment>
-              <Tabs centered="true" value={location.pathname}>
-                <Tab label="Home" component={Link} to="/" />
-                <Tab label="Gallery" component={Link} to="/gallery" />
-                <Tab label="Carousel" component={Link} to="/carousel" />
-                <Tab
+              <Tabs centered={true} value={location.pathname}>
+                <Tab value="/" label="Home" component={Link} to="/" />
+                <Tab value="/gallery" label="Gallery" component={Link} to="/gallery" />
+                <Tab value="/carousel" label="Carousel" component={Link} to="/carousel" />
+                <Tab value="/about"
                   label="About"
                   href="#basic-tabs"
                   component={Link}
                   to="/about"
                 />
-                <Tab label="Contact" component={Link} to="/contact" />
+                <Tab value="/contact" label="Contact" component={Link} to="/contact" />
               </Tabs>
               <Switch>
                 <Route path="/about">
