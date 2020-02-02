@@ -35,11 +35,21 @@ function App() {
                 <Tab label="Contact" component={Link} to="/contact" />
               </Tabs>
               <Switch>
-                <Route path="/contact" render={Contact} />
-                <Route path="/about" render={About} />
-                <Route path="/carousel" render={Carousel} />
-                <Route path="/gallery" render={Gallery} />
-                <Route path="/" render={Home} />
+                <Route path="/about">
+                  <About />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+                <Route path="/carousel">
+                  <Carousel />
+                </Route>
+                <Route path="/gallery">
+                  <Gallery />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
               </Switch>
             </Fragment>
           )}
