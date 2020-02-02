@@ -1,4 +1,5 @@
 import React from 'react';
+import ModalImage from "react-modal-image";
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
@@ -32,15 +33,25 @@ function Gallery(props) {
   return (
 
     <div className={classes.root}>
+      <h3>Gallery</h3>
       <GridList cellHeight={160} className={classes.gridList} cols={3}>
         {images.map(tile => (
           <GridListTile key={tile.img} cols={tile.cols || 1} rows={tile.rows || 3}>
-            <img src={tile.img} alt={tile.title} />
+            <ModalImage
+              small={tile.img}
+              large={tile.img}
+              alt={tile.title}
+            />
           </GridListTile>
         ))}
       </GridList>
+
+      
+
     </div>
   );
 }
+
+//<img src={tile.img} alt={tile.title} />
 
 export default Gallery

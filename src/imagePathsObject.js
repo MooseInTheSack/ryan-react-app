@@ -24,7 +24,7 @@ import i004 from './components/common/images/004.jpg'
 import i005 from './components/common/images/005.jpg'
 import i006 from './components/common/images/006.jpg'
 import i007 from './components/common/images/007.jpg'
-import i008 from './components/common/images/008.png'
+import scorpion from './components/common/images/scorpion.jpg'
 import i009 from './components/common/images/009.jpg'
 import i010 from './components/common/images/010.jpg'
 import i011 from './components/common/images/011.jpg'
@@ -72,7 +72,7 @@ export const imagesObjects = [
             thumbnail: fisherman,
             title: 'fisherman',
             rows: 3,
-            cols: 1,
+            cols: 2,
         },
         { 
             original: BuddyTheAnt,
@@ -93,7 +93,7 @@ export const imagesObjects = [
             thumbnail: iron_man_vs_thanos,
             title: 'iron_man_vs_thanos',
             rows: 3,
-            cols: 1,
+            cols: 2,
         },
         { 
             original: new_buddy,
@@ -110,18 +110,18 @@ export const imagesObjects = [
             cols: 1,
         },
         { 
-            original: Rumple_and_Horace,
-            thumbnail: Rumple_and_Horace,
-            title: 'Rumple_and_Horace',
-            rows: 3,
-            cols: 1,
-        },
-        { 
             original: scarecrow_boy,
             thumbnail: scarecrow_boy,
             title: 'scarecrow_boy',
             rows: 3,
             cols: 1,
+        },
+        { 
+            original: Rumple_and_Horace,
+            thumbnail: Rumple_and_Horace,
+            title: 'Rumple_and_Horace',
+            rows: 3,
+            cols: 2,
         },
         /*
         { 
@@ -165,7 +165,7 @@ export const imagesObjects = [
             thumbnail: Way_out_West_image,
             title: 'Way_out_West_image',
             rows: 3,
-            cols: 1,
+            cols: 2,
         },
         { 
             original: i001,
@@ -173,6 +173,13 @@ export const imagesObjects = [
             title: 'i001',
             rows: 3,
             cols: 1,
+        },
+        { 
+            original: scorpion,
+            thumbnail: scorpion,
+            title: 'scorpion',
+            rows: 4,
+            cols: 2,
         },
         { 
             original: i002,
@@ -217,13 +224,6 @@ export const imagesObjects = [
             cols: 1,
         },
         { 
-            original: i008,
-            thumbnail: i008,
-            title: 'i008',
-            rows: 3,
-            cols: 1,
-        },
-        { 
             original: i009,
             thumbnail: i009,
             title: 'i009',
@@ -258,4 +258,4 @@ export const imagesObjects = [
             rows: 3,
             cols: 1,
         },
-    ]
+    ].reverse()
