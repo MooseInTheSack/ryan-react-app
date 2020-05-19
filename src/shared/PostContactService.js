@@ -3,14 +3,12 @@ var rp = require('request-promise');
 
 export const postEmail = (subject, text) => {
     console.log(`INFO BEGIN postEmail. subject = ${subject}, text=${text}`)
-    console.log('process.env: ', process.env)
     if(text === '') {
         return
     }
     var options = {
         method: 'POST',
-        //uri: 'http://172.16.1.62:3000/email',
-        uri: 'http://' + process.env.RYAN_NODE_SERVER + ':3000/email',
+        uri: 'http://99.123.151.125:3000/email',
         body: {
             subject: subject || 'Message From ryankirkpatrick.me',
             text: text,
