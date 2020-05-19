@@ -1,10 +1,41 @@
-import React from 'react'
+//import React from 'react'
+var rp = require('request-promise');
 
-const config = {
-    SERVER_URL: "localhost:3000/email"
+export const postEmail = (subject, text) => {
+    console.log(`INFO BEGIN postEmail. subject = ${subject}, text=${text}`)
+    if(text === '') {
+        return
+    }
+    var options = {
+        method: 'POST',
+        uri: '172.16.1.62:3000/email',
+        body: {
+            subject: subject || 'Message From ryankirkpatrick.me',
+            text: text,
+        },
+        json: true // Automatically stringifies the body to JSON
+    };
+     
+    rp(options)
+    .then(function (parsedBody) {
+        console.log(`INFO SUCCESS postEmail. parsedBody = ${parsedBody}`)
+        alert(`SUCCESS: parsedBody: ${parsedBody}`)
+        // POST succeeded...
+    })
+    .catch(function (err) {
+        // POST failed...
+        console.log(`INFO FAILURE postEmail. err = ${err}`)
+        alert(`FAILURE: err: ${err}`)
+    });
 }
 
-const PostContactService = () => {
+
+
+export const PostContactService = () => {
+    const config = {
+        SERVER_URL: "localhost:3000/email"
+    }
+
     const postContactForm = async (newitem) => {
         return fetch(config.SERVER_URL, {
             method: "POST",

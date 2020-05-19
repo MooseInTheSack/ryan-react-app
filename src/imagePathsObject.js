@@ -30,6 +30,12 @@ import i010 from './components/common/images/010.jpg'
 import i011 from './components/common/images/011.jpg'
 import i012 from './components/common/images/012.jpg'
 import i013 from './components/common/images/013.jpg'
+import i014 from './components/common/images/014.jpg'
+import i015 from './components/common/images/015.jpg'
+import i016 from './components/common/images/016.jpg'
+import i017 from './components/common/images/017.jpg'
+import buddy_3 from './components/common/images/buddy_3.jpg'
+import buddy_2 from './components/common/images/buddy_2.jpg'
 
 export const imagesObjects = [
         { 
@@ -262,6 +268,48 @@ export const imagesObjects = [
             original: i013,
             thumbnail: i013,
             title: 'i013',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i014,
+            thumbnail: i014,
+            title: 'i014',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i015,
+            thumbnail: i015,
+            title: 'i015',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i016,
+            thumbnail: i016,
+            title: 'i016',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: i017,
+            thumbnail: i017,
+            title: 'i017',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: buddy_3,
+            thumbnail: buddy_3,
+            title: 'buddy_3',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: buddy_2,
+            thumbnail: buddy_2,
+            title: 'buddy_2',
             rows: 3,
             cols: 1,
         },

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import { Button } from '@material-ui/core';
+import { postEmail } from '../../shared/PostContactService'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,9 +20,9 @@ function Contact() {
 
   const [values, setValues] = useState({email: '', body: ''})
 
-  const handleSubmit = stuff => {
+  const handleSubmit = () => {
     //alert(`just submitted. values = ${JSON.stringify(values)}`)
-    console.log("response submitted, no server hooked up yet")
+    postEmail('test subject', values.body)
   }
 
   const handleInputChange = e => {
@@ -57,7 +58,7 @@ function Contact() {
             value={values.body}
           />
           <br />
-          <input disabled={true} type="submit" value="Submit" component={Button} /> 
+          <input disabled={false} type="submit" value="Submit" component={Button} /> 
         </form>
       
     </div>
