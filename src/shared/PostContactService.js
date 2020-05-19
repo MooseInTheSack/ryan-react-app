@@ -10,7 +10,7 @@ export const postEmail = (subject, text) => {
     var options = {
         method: 'POST',
         //uri: 'http://172.16.1.62:3000/email',
-        uri: process.env.RYAN_NODE_SERVER + ':3000/email',
+        uri: 'http://' + process.env.RYAN_NODE_SERVER + ':3000/email',
         body: {
             subject: subject || 'Message From ryankirkpatrick.me',
             text: text,
