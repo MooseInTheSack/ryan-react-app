@@ -8,7 +8,7 @@ export const postEmail = (subject, text) => {
     }
     var options = {
         method: 'POST',
-        uri: '172.16.1.62:3000/email',
+        uri: 'http://172.16.1.62:3000/email',
         body: {
             subject: subject || 'Message From ryankirkpatrick.me',
             text: text,
