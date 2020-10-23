@@ -37,6 +37,17 @@ import i017 from './components/common/images/017.jpg'
 import buddy_3 from './components/common/images/buddy_3.jpg'
 import buddy_2 from './components/common/images/buddy_2.jpg'
 
+import IMG_1762 from './components/common/images/IMG_1762.jpeg'
+import IMG_1775 from './components/common/images/IMG_1775.jpeg'
+import IMG_1804 from './components/common/images/IMG_1804.jpeg'
+import IMG_1808 from './components/common/images/IMG_1808.jpeg'
+import IMG_1552 from './components/common/images/IMG_1552.jpeg'
+import IMG_1575 from './components/common/images/IMG_1575.jpeg'
+import IMG_1768 from './components/common/images/IMG_1768.jpeg'
+import IMG_1786 from './components/common/images/IMG_1786.jpeg'
+import IMG_1807 from './components/common/images/IMG_1807.jpeg'
+import IMG_1809 from './components/common/images/IMG_1809.jpeg'
+
 export const imagesObjects = [
         { 
             original: avengersPoster,
@@ -307,10 +318,80 @@ export const imagesObjects = [
             cols: 1,
         },
         { 
+            original: IMG_1762,
+            thumbnail: IMG_1762,
+            title: 'Better Call Saul!',
+            rows: 3,
+            cols: 2,
+        },
+        { 
             original: buddy_2,
             thumbnail: buddy_2,
             title: 'buddy_2',
             rows: 3,
             cols: 1,
         },
-    ].reverse()
+        { 
+            original: IMG_1775,
+            thumbnail: IMG_1775,
+            title: 'IMG_1775',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1804,
+            thumbnail: IMG_1804,
+            title: 'IMG_1804',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1808,
+            thumbnail: IMG_1808,
+            title: 'IMG_1808',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1552,
+            thumbnail: IMG_1552,
+            title: 'Master Chief',
+            rows: 3,
+            cols: 2,
+        },
+        { 
+            original: IMG_1575,
+            thumbnail: IMG_1575,
+            title: 'IMG_1575',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1768,
+            thumbnail: IMG_1768,
+            title: 'IMG_1768',
+            rows: 3,
+            cols: 2,
+        },
+        { 
+            original: IMG_1786,
+            thumbnail: IMG_1786,
+            title: 'IMG_1786',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1807,
+            thumbnail: IMG_1807,
+            title: 'IMG_1807',
+            rows: 3,
+            cols: 1,
+        },
+        { 
+            original: IMG_1809,
+            thumbnail: IMG_1809,
+            title: 'IMG_1809',
+            rows: 3,
+            cols: 1,
+    },].
+    reverse()
